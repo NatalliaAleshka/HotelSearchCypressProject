@@ -6,7 +6,7 @@ describe('The sanity test suit for travel site', () => {
   })
 
   it('Verify tabs of the page', () => {
-    cy.visit('http://localhost:3000//')
+    cy.visit('http://localhost:3000/')
     cy.get('[data-cy="Hotels"]').should("be.visible")
     cy.get('[data-cy="Car"]').should("be.visible")
     cy.get('[data-cy="Flight"]').should("be.visible")
